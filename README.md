@@ -110,16 +110,10 @@ lib/
 
 ## Development Best Practices
 
-### Git Workflow
-
-- Regular commits with descriptive messages
-- Feature-based branching
-
 ### Code Standards
 
 - Consistent naming conventions
 - Proper code documentation
-- SOLID principles application
 
 ## Creative Touches
 
@@ -130,12 +124,6 @@ lib/
 - Designed both light and dark themes with appropriate color palettes
 - Made all UI components responsive to theme changes
 
-### Visual Design
-
-- Custom color scheme that's visually appealing
-- Attention to detail in spacing and layout
-- Smooth transitions between screens
-- Responsive design for various screen sizes
 
 ## Future Enhancements
 
