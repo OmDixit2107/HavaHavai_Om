@@ -149,9 +149,3 @@ lib/
 - `intl`: Formatting for prices
 - `cached_network_image`: Efficient image loading
 
-[Include screenshots of your application here]
-
-## License
-
-This project is open-source and available under the MIT License.
-"# HavaHavai_Om"
