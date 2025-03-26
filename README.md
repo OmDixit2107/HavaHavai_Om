@@ -36,8 +36,6 @@ The application uses **Riverpod** for state management, implementing:
 
 ```
 lib/
-├── constants/
-│   └── app_constants.dart       # Application-wide constants
 ├── models/
 │   ├── product.dart             # Product data model
 │   └── cart_item.dart           # Cart item data model
@@ -45,11 +43,14 @@ lib/
 │   ├── product_provider.dart    # Product state management
 │   ├── cart_provider.dart       # Cart state management
 │   └── theme_provider.dart      # Theme state management
+├── repositories/
+│   └── product_repository.dart  # API interaction and data fetching
 ├── screens/
 │   ├── catalogue_screen.dart    # Main product listing screen
 │   └── cart_screen.dart         # Cart contents screen
 ├── utils/
-│   └── price_utils.dart         # Utility functions for price calculations
+│   ├── price_formatter.dart     # Utility functions for price formatting
+│   └── network_utils.dart       # HTTP client and API utilities
 ├── widgets/
 │   ├── product_card.dart        # Product display card
 │   ├── cart_item_widget.dart    # Cart item display
