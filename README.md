@@ -149,8 +149,6 @@ lib/
 - `intl`: Formatting for prices
 - `cached_network_image`: Efficient image loading
 
-## Screenshots
-
 [Include screenshots of your application here]
 
 ## License
